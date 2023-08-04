@@ -35,12 +35,31 @@
                 "concept": "1246AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
                 "answers": [
                   {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
                     "label": "Yes",
-                    "concept": "cf82933b-3f3f-45e7-a5ab-5d31aaee3da3"
+                    "conceptMappings": [
+                      {
+                        "type": "CIEL",
+                        "value": "1065"
+                      },
+                      {
+                        "type": "AMPATH",
+                        "value": "1065"
+                      },
+                      {
+                        "type": "PIH",
+                        "value": "1065"
+                      },
+                      {
+                        "type": "SNOMED CT",
+                        "value": "CT: 373066001"
+                      }
+                    ]
                   },
                   {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
                     "label": "No",
-                    "concept": "488b58ff-64f5-4f8a-8979-fa79940b1594"
+                    "conceptMappings": []
                   }
                 ],
                 "conceptMappings": [
@@ -135,12 +154,48 @@
                 "concept": "1154AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
                 "answers": [
                   {
+                    "concept": "1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
                     "label": "Yes",
-                    "concept": "cf82933b-3f3f-45e7-a5ab-5d31aaee3da3"
+                    "conceptMappings": [
+                      {
+                        "type": "CIEL",
+                        "value": "1065"
+                      },
+                      {
+                        "type": "AMPATH",
+                        "value": "1065"
+                      },
+                      {
+                        "type": "PIH",
+                        "value": "1065"
+                      },
+                      {
+                        "type": "SNOMED CT",
+                        "value": "CT: 373066001"
+                      }
+                    ]
                   },
                   {
+                    "concept": "1066AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
                     "label": "No",
-                    "concept": "488b58ff-64f5-4f8a-8979-fa79940b1594"
+                    "conceptMappings": [
+                      {
+                        "type": "CIEL",
+                        "value": "1066"
+                      },
+                      {
+                        "type": "AMPATH",
+                        "value": "1066"
+                      },
+                      {
+                        "type": "PIH",
+                        "value": "1066"
+                      },
+                      {
+                        "type": "SNOMED CT",
+                        "value": "373067005"
+                      }
+                    ]
                   }
                 ]
               },
@@ -655,7 +710,7 @@
                   "intent": "*",
                   "unspecified": "true",
                   "hide": {
-                    "hideWhenExpression": "presentingComplaints !== 'cf82933b-3f3f-45e7-a5ab-5d31aaee3da3'"
+                    "hideWhenExpression": "presentingComplaints !== '1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'"
                   }
                 }
               ],
@@ -672,7 +727,7 @@
                 {
                   "intent": "*",
                   "hide": {
-                    "hideWhenExpression": "presentingComplaints !== 'cf82933b-3f3f-45e7-a5ab-5d31aaee3da3'"
+                    "hideWhenExpression": "presentingComplaints !== '1065AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'"
                   }
                 }
               ],
@@ -2264,7 +2319,7 @@
               "required": "true",
               "unspecified": "true",
               "hide": {
-                "hideWhenExpression": "screenedForCervicalCancer !== '165619AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA'"
+                "hideWhenExpression": "screenedForCervicalCancer !== '165619AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA', patient.gender === 'M' "
               }
             }
           ]
@@ -2862,7 +2917,7 @@
               "type": "obs",
               "questionOptions": {
                 "rendering": "checkbox",
-                "concept": "12a22a0b-f0ed-4f1a-8d70-7c6acda5ae78",
+                "concept": "159800AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
                 "answers": [
                   {
                     "concept": "133027AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
@@ -2963,44 +3018,35 @@
               "type": "obs",
               "questionOptions": {
                 "rendering": "checkbox",
-                "concept": "16ba5f4b-5430-44c8-91e4-c4c66b072f29",
+                "concept": "159800AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
                 "answers": [
                   {
-                    "concept": "7becaa8c-8028-4fb7-8f5f-a450fc3e3f8b",
-                    "label": "history of contact with a person with TB",
-                    "conceptMappings": []
-                  },
-                  {
-                    "concept": "140707AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                    "label": "Failure to Gain Weight",
+                    "concept": "133027AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                    "label": "Night sweats",
                     "conceptMappings": [
                       {
-                        "type": "3BT",
-                        "value": "10035463"
-                      },
-                      {
-                        "type": "IMO-ProblemIT",
-                        "value": "27344"
-                      },
-                      {
-                        "type": "ICPC2",
-                        "value": "T10"
+                        "type": "SNOMED-CT",
+                        "value": "42984000"
                       },
                       {
                         "type": "AMPATH",
-                        "value": "5267"
+                        "value": "6029"
                       },
                       {
-                        "type": "ICD-10-WHO",
-                        "value": "R62.8"
+                        "type": "IMO-ProblemIT",
+                        "value": "50760"
                       },
                       {
-                        "type": "CIEL",
-                        "value": "140707"
+                        "type": "PIH",
+                        "value": "6029"
                       },
                       {
-                        "type": "SNOMED-CT",
-                        "value": "36440009"
+                        "type": "3BT",
+                        "value": "10063085"
+                      },
+                      {
+                        "type": "ICPC2",
+                        "value": "A09"
                       }
                     ]
                   },
