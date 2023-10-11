@@ -22,7 +22,7 @@
     </addressComponent>
     <addressComponent>
       <field>ADDRESS_1</field>
-      <nameMapping>impl.commune</nameMapping>
+      <nameMapping>Location.address1</nameMapping>
       <sizeMapping>40</sizeMapping>
       <requiredInHierarchy>true</requiredInHierarchy>
     </addressComponent>
