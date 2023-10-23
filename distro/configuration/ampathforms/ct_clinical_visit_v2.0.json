@@ -9106,12 +9106,8 @@
               "label": "CD4 Lab Results",
               "type": "obs",
               "questionOptions": {
-                "rendering": "toggle",
+                "rendering": "radio",
                 "concept": "2dbf01ab-77f6-4b35-aa2c-46dfc14b0af0",
-                "toggleOptions": {
-                  "labelTrue": "Yes",
-                  "labelFalse": "No"
-                },
                 "conceptMappings": [
                   {
                     "type": "OCT",
@@ -9160,12 +9156,8 @@
               "label": "Viral Lab Results",
               "type": "obs",
               "questionOptions": {
-                "rendering": "toggle",
+                "rendering": "radio",
                 "concept": "2dbf01ab-77f6-4b35-aa2c-46dfc14b0af0",
-                "toggleOptions": {
-                  "labelTrue": "Yes",
-                  "labelFalse": "No"
-                },
                 "conceptMappings": [
                   {
                     "type": "OCT",

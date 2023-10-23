@@ -273,8 +273,8 @@
               "questionOptions": {
                 "rendering": "number",
                 "concept": "856AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-                "max": "",
-                "min": "51",
+                "max": "10000000",
+                "min": "20",
                 "showDate": "",
                 "conceptMappings": [
                   {

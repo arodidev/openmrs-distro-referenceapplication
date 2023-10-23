@@ -411,6 +411,13 @@
                     "hideWhenExpression": "isEmpty('testRequested')"
                   },
                   "value": "162866AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+                },
+                {
+                  "intent": "COVID_LAB_ORDER_EMBED",
+                  "hide": {
+                    "hideWhenExpression": "isEmpty('testRequested')"
+                  },
+                  "value": "162866AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
                 }
               ]
             },
