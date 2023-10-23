@@ -1115,9 +1115,8 @@
     }
   ],
   "processor":"EncounterFormProcessor",
-  "uuid":"12de5bc5-352e-4faf-9961-a2125085a75c",
+  "uuid":"xxxx",
   "referencedForms":[],
-  "encounterType":"677d1a80-dbbe-4399-be34-aa7f54f11405",
   "postSubmissionActions": ["PTrackerSubmissionAction", "ArtSubmissionAction"],
   "allowUnspecifiedAll":true,
   "formOptions": {
