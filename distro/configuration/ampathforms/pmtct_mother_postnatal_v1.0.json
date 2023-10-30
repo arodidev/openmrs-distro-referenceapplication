@@ -113,7 +113,7 @@
                 "concept": "",
                 "rendering": "fixed-value",
                 "calculate": {
-                  "calculateExpression": "resolve(api.getLatestObs(patient.id, '6c45421e-2566-47cb-bbb3-07586fffbfe2', '2549af50-75c8-4aeb-87ca-4bb2cef6c69a')).valueString"
+                  "calculateExpression": "resolve(api.getLatestObs(patient.id, '6c45421e-2566-47cb-bbb3-07586fffbfe2', '677d1a80-dbbe-4399-be34-aa7f54f11405')).valueString"
                 }
               },
               "hide":{
@@ -139,7 +139,7 @@
                 "concept": "164401AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
                 "rendering": "fixed-value",
                 "calculate": {
-                  "calculateExpression": "resolve(api.getLatestObs(patient.id, '164401AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA', '2549af50-75c8-4aeb-87ca-4bb2cef6c69a'))?.valueCodeableConcept?.coding[0]?.code"
+                  "calculateExpression": "resolve(api.getLatestObs(patient.id, '164401AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA', '677d1a80-dbbe-4399-be34-aa7f54f11405'))?.valueCodeableConcept?.coding[0]?.code"
                 },
                 "answers": [
                   {
@@ -178,7 +178,7 @@
                 "concept": "159427AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
                 "rendering": "fixed-field",
                 "calculate":{
-                  "calculateExpression":"resolve(api.getLatestObs(patient.id, '159427AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA', '2549af50-75c8-4aeb-87ca-4bb2cef6c69a'))?.valueCodeableConcept?.coding[0]?.code"
+                  "calculateExpression":"resolve(api.getLatestObs(patient.id, '159427AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA', '677d1a80-dbbe-4399-be34-aa7f54f11405'))?.valueCodeableConcept?.coding[0]?.code"
                 },
                 "answers": [
                   {
