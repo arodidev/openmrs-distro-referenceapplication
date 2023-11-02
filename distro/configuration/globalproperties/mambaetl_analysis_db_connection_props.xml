@@ -1,0 +1,24 @@
+<config>
+    <globalProperties>
+        <globalProperty>
+            <property>mambaetl.analysis.db.url</property>
+            <value>jdbc:mysql://localhost:3306/analysis_db?autoReconnect=true</value>
+            <description>JDBC Connection string</description>
+        </globalProperty>
+        <globalProperty>
+            <property>mambaetl.analysis.db.username</property>
+            <value>mamba</value>
+            <description>MambaETL username</description>
+        </globalProperty>
+        <globalProperty>
+            <property>mambaetl.analysis.db.password</property>
+            <value>p</value>
+            <description>MambaETL user password</description>
+        </globalProperty>
+        <globalProperty>
+            <property>mambaetl.analysis.db.driver</property>
+            <value>com.mysql.jdbc.Driver</value>
+            <description>MambaETL JDBC driver</description>
+        </globalProperty>
+    </globalProperties>
+</config>
