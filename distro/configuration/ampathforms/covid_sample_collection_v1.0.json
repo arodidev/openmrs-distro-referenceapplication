@@ -412,7 +412,8 @@
                   "unspecified": "false",
                   "hide": {
                     "hideWhenExpression": "false"
-                  }
+                  },
+                  "value": "162866AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
                 },
                 {
                   "intent": "COVID_SAMPLE_COLLECTION_EMBED",
@@ -420,7 +421,8 @@
                   "unspecified": "false",
                   "hide": {
                     "hideWhenExpression": "false"
-                  }
+                  },
+                  "value": "162866AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
                 }
               ]
             }
